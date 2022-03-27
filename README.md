@@ -20,9 +20,9 @@ On the Jetson Nano, this is a challenging build. There is not enough memory on t
 
 <blockquote>$ make -j4</blockquote>
 
-without using a significant amount of swap file space. With L4T 32.2.1, there is a default swap space. However, if you are using a SD card, this can result in long compile times as both physcial memory and the swap file memory exhaust. Recommend using a USB drive for building. If you use a SD card, consider setting the environment variable NUM_JOBS in the buildOpenCV.sh script to 1. The build time may be longer, but you will not have the same amount of memory/SD card thrashing. If you are using a USB drive, you may want to add a swapfile: https://github.com/JetsonHacksNano/installSwapfile.
+without using a significant amount of swap file space. With L4T 32.2.1, there is a default swap space. However, if you are using a SD card, this can result in long compile times as both physcial memory and the swap file memory exhaust. Recommend using a USB drive for building. If you use a SD card, consider setting the environment variable NUM_JOBS in the buildOpenCV.sh script to 1. The build time may be longer, but you will not have the same amount of memory/SD card thrashing. If you are using a USB drive, you may want to add a swapfile.
 
-Note that if you are building for Python, you most definitely will benefit from building with a swap file and running on a USB drive. See: https://github.com/JetsonHacksNano/installSwapfile 
+Note that if you are building for Python, you most definitely will benefit from building with a swap file and running on a USB drive.
 
 ### Usage
 
