@@ -1,5 +1,5 @@
 # OpencvJetsonNano
-Opencv build Script for Jetson nano with GPU and CUDA Suport.
+Opencv build Script for Jetson nano with GPU and CUDA Support.
 
 Building for:
 * Jetson Nano
